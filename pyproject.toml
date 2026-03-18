@@ -41,4 +41,5 @@ dev = [
 
 [project.urls]
 Homepage = "https://pypi.org/project/pyvelora/"
-Issues = "https://github.com/user_placeholder/pyvelora/issues"
+Repository = "https://github.com/njryan-boou/pyvelora"
+Issues = "https://github.com/njryan-boou/pyvelora/issues"
