@@ -1,3 +1,32 @@
+Metadata-Version: 2.4
+Name: pyvelora
+Version: 0.3.3
+Summary: Lightweight mathematical backend for physics libraries.
+Author: Noah Ryan
+License-Expression: MIT
+Project-URL: Homepage, https://pypi.org/project/pyvelora/
+Project-URL: Repository, https://github.com/njryan-boou/pyvelora
+Project-URL: Issues, https://github.com/njryan-boou/pyvelora/issues
+Keywords: linear-algebra,vector,matrix,tensor,scientific-computing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: scipy>=1.10
+Requires-Dist: matplotlib>=3.7
+Provides-Extra: dev
+Requires-Dist: pytest>=9.0; extra == "dev"
+Requires-Dist: build>=1.3; extra == "dev"
+Requires-Dist: twine>=6.2; extra == "dev"
+
 # pyvelora
 
 pyvelora is a lightweight math backend for scientific and simulation workflows.

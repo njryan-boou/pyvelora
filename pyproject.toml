@@ -4,15 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyvelora"
-version = "0.3.0"
-description = "Lightweight NumPy-based mathematical backend for physics libraries."
+version = "0.3.3"
+description = "Lightweight mathematical backend for physics libraries."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
 authors = [
     { name = "Noah Ryan" }
 ]
-keywords = ["linear-algebra", "vector", "matrix", "tensor", "numpy", "scientific-computing"]
+keywords = ["linear-algebra", "vector", "matrix", "tensor", "scientific-computing"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -27,7 +27,6 @@ classifiers = [
 ]
 
 dependencies = [
-    "numpy>=1.23",
     "scipy>=1.10",
     "matplotlib>=3.7",
 ]
